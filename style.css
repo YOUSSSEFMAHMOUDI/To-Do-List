@@ -1,0 +1,63 @@
+div{
+    width: 400px;
+    height: 500px;
+    border: 1px solid #4F4557 ;
+    border-radius: 20px;
+    margin: 30px 300px ;
+    box-shadow: 0 0 8px #4F4557;
+    background-color: #F4EEE0;
+}
+h2{
+    text-align: center;
+    color:#393646;
+
+}
+input{
+    width: 290px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border: 1px solid #4F4557;
+    border-radius: 20px;
+    box-shadow: 0 0 8px #4F4557;
+
+}
+button{
+    border: 1px solid  #4F4557 ;
+    border-radius: 20px;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #4F4557;
+    box-shadow: 0 0 8px #6D5D6E;
+}
+ul{
+    margin-top: 30px;
+}
+ul li{
+    position: relative;
+    list-style: none;
+    font-size: 20px;
+    padding: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+ul li.checked{
+    color: #f01010;
+    text-decoration: underline;
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+span:hover{
+    background-color: #f01010;
+    color: aliceblue;
+}
